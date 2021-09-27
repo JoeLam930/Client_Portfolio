@@ -9,6 +9,7 @@ html {
   font-size: 10px;
   font-family: "Mntserrat", sans-serif;
   scroll-behavior: smooth;
+  background-color:rgb(225, 230, 153)
 }
 a {
   text-decoration: none;
@@ -20,8 +21,11 @@ a {
   align-items: center;
   justify-content: center;
 }
+h1{
+  font-weight: bold;
+}
 h1 span {
-  color: crimson;
+  color: rgb(196,161,223);
 }
 img {
   height: 100%;
@@ -46,7 +50,7 @@ p {
   text-align: center;
 }
 .section-title span {
-  color: crimson;
+  color: rgb(90,39,129);
 }
 .section-title {
   font-size: 4rem;
@@ -63,7 +67,7 @@ p {
   padding: 10px 30px;
   color: rgb(255, 255, 255);
   background-color: transparent;
-  border: 2px solid crimson;
+  border: 2px solid rgb(225, 230, 153);
   font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
@@ -72,8 +76,8 @@ p {
   transition-property: background-color, color;
 }
 .cta:hover {
-  color: white;
-  background-color: crimson;
+  color: rgb(0, 0, 0);
+  background-color:rgb(225, 230, 153);
 }
 
 .brand h1 {
@@ -82,7 +86,7 @@ p {
   color: white;
 }
 .brand h2 span {
-  color: crimson;
+  color: rgb(196,161,223);
 }
 
 /*Header section*/
@@ -96,7 +100,7 @@ p {
 }
 #header .header{
   min-height:8vh;
-  background-color: rgba(31,30,30, 0.24);
+  background-color: rgba(72,31,103);
   transition: .3s ease background-color;
 }
 .header .nav-bar {
@@ -111,7 +115,7 @@ p {
 #header .nav-list ul{
   list-style: none;
   position:absolute;
-  background-color: rgb(30, 30, 30);
+  background-color: rgb(72,31,103);
   width:100vw;
   height:100vh;
   left: 100%;
@@ -155,7 +159,7 @@ p {
   letter-spacing: initial;
 }
 #header .nav-list ul li:hover a{
-  color:crimson;
+  color:rgb(225, 230, 153);
 }
 #header .hamburger{
   height:60px;
@@ -219,7 +223,7 @@ p {
 /* hero Section*/
 
 #hero {
-  background-image: url(/img/hero-bg.png);
+  background-image: url(/img/IMG_3969b.JPG);
   background-size: cover;
   background-position: top center;
   position: relative;
@@ -233,7 +237,7 @@ p {
   height: 100%;
   width: 100%;
   background-color: black;
-  opacity: 0.7;
+  opacity: 0.5;
   z-index: -1;
 }
 #hero .hero {
@@ -269,7 +273,7 @@ p {
   left: 0;
   height: 100%;
   width: 0;
-  background-color: crimson;
+  background-color: rgb(225, 230, 153);
   animation: text_reveal_box 1s ease;
   animation-delay: 0.5s;
 }
@@ -335,7 +339,7 @@ p {
   top: 0;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(60deg, #293323 0%, #485563 100%);
+  background-image: linear-gradient(60deg, rgb(90,39,129), rgb(50, 20, 70));
   opacity: .9;
   z-index: -1;
   border-radius:10px ;
@@ -396,7 +400,7 @@ p {
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  background-image: linear-gradient(60deg, #293323, #485563 100%);
+  background-image: linear-gradient(60deg, rgb(90,39,129) 0%, rgb(90,43,141) 100%);
   color: white;
 }
 #projects .project-info h1 {
@@ -469,7 +473,7 @@ p {
   height: 100%;
   width: 100%;
   position: relative;
-  border: 10px solid white;
+  border: 10px solid rgb(225, 230, 153);
 }
 #about .col-left .about-img::after {
   content: '';
@@ -478,7 +482,7 @@ p {
   top: 19px;
   height: 98%;
   width: 98%;
-  border: 7px solid crimson;
+  border: 7px solid rgb(90,39,129);
   z-index: -1;
 }
 /*End About me*/
@@ -529,7 +533,7 @@ p {
 }
 /* Footer */
 #footer {
-  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  background-image: linear-gradient(60deg, rgb(90,39,129) 0%, rgb(90,43,141) 100%);
 }
 #footer .footer {
   min-height: 200px;
@@ -594,8 +598,8 @@ p {
 }
 @keyframes text_reveal_name {
   100% {
-    color: crimson;
-    font-weight: 500;
+    color: rgb(225, 230, 153);
+    font-weight: bold;
   }
 }
 /* Media Query For Tablet*/
@@ -652,7 +656,7 @@ p {
       top:34px;
       height:98%;
       width:98%;
-      border:10px solid crimson;
+      border:10px solid rgb(90,39,129);
     }
     #about .col-right{
       text-align: left;
