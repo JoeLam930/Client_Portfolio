@@ -9,7 +9,7 @@ html {
   font-size: 10px;
   font-family: "Mntserrat", sans-serif;
   scroll-behavior: smooth;
-  background-color:rgb(225, 230, 153)
+  background-color:rgb(234, 220, 244)
 }
 a {
   text-decoration: none;
@@ -473,7 +473,7 @@ p {
   height: 100%;
   width: 100%;
   position: relative;
-  border: 10px solid rgb(225, 230, 153);
+  border: 10px solid rgb(234, 220, 244);
 }
 #about .col-left .about-img::after {
   content: '';
